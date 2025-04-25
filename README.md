@@ -9,7 +9,7 @@
 
 - 📝 I work as a full stack web developer.
 
-- 📫 How to contact me **arielreyes593@gmail.com**
+- 📫 How to contact me **arielreyesdev593@gmail.com**
 
 - 🌱 I am currently learning:
 * **Angular**.
