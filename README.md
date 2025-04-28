@@ -27,17 +27,21 @@
 
 ## 📊 My GitHub Stats
 
+<div align="center">
+    
 [![GitHub Streak](https://streak-stats.demolab.com?user=Andres-Reyes&theme=dark&hide_border=true&border_radius=4&short_numbers=true)](https://git.io/streak-stats)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Andres-Reyes&layout=compact&theme=dark)
 
+</div>
+
 ## 📫 Connect With Me
 
 <div align="center">
-    <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">
+    <a href="https://www.linkedin.com/in/arielandresreyestuay/" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
-    <a href="https://twitter.com/your-twitter" target="_blank">
+ <!--    <a href="https://twitter.com/your-twitter" target="_blank">
         <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-    </a>
+    </a> -->
 </div>
