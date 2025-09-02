@@ -1,17 +1,34 @@
 <div id="header" align="center">
     <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" />
-    <h1 align="center">Hi 👋, I'm Andres Reyes</h1>
-    <h3 align="center">A passionate Full Stack Web Developer from Colombia</h3>
+    <h1 align="center">¡Hola! 👋 Soy Andres Reyes</h1>
+    <h3 align="center">Desarrollador Full Stack apasionado por crear soluciones digitales innovadoras</h3>
 </div>
 
-## 👨‍💻 About Me
+<p align="center">
+    <b>"La tecnología es el arte de transformar ideas en realidad."</b>
+</p>
 
-- 🔭 I'm currently working as a **Full Stack Web Developer**
-- 🌱 I'm currently learning **Angular**, **Python**, and **Flutter**
-- 📫 How to reach me: **arielreyesdev593@gmail.com**
-- 💼 Open to collaborating on interesting web development projects
+---
 
-## 🛠️ Languages and Tools
+## � Sobre mí
+
+Soy un desarrollador web Full Stack de Colombia, con experiencia en la creación de aplicaciones modernas y escalables. Me encanta aprender nuevas tecnologías y colaborar en proyectos que generen impacto.
+
+<!-- ## 🌟 Proyectos Destacados
+
+- <a href="https://github.com/Andres-Reyes/Proyecto1">Proyecto1</a>: Descripción breve del proyecto.
+- <a href="https://github.com/Andres-Reyes/Proyecto2">Proyecto2</a>: Descripción breve del proyecto.
+- <a href="https://github.com/Andres-Reyes/Proyecto3">Proyecto3</a>: Descripción breve del proyecto. -->
+
+
+## 👨‍💻 Experiencia y Formación
+
+- 🔭 Actualmente trabajo como **Desarrollador Full Stack Web**
+- 🌱 Aprendiendo **Angular**, **Python** y **Flutter**
+- 🎓 Certificaciones: [Nombre de certificación], [Otra certificación]
+- 💼 Abierto a colaborar en proyectos web innovadores
+
+## 🛠️ Tecnologías y Herramientas
 
 <div align="center">
     <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
@@ -25,7 +42,7 @@
     <img src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-plain.svg" title="Flutter" alt="Flutter" width="40" height="40"/>        
 </div>
 
-## 📊 My GitHub Stats
+## 📊 Estadísticas de GitHub
 
 <div align="center">
     
@@ -35,13 +52,16 @@
 
 </div>
 
-## 📫 Connect With Me
+## 📫 Conecta conmigo
 
 <div align="center">
     <a href="https://www.linkedin.com/in/arielandresreyestuay/" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
- <!--    <a href="https://twitter.com/your-twitter" target="_blank">
-        <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-    </a> -->
+    <a href="mailto:arielreyesdev593@gmail.com" target="_blank">
+        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    </a>
+    <a href="https://github.com/Andres-Reyes" target="_blank">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    </a>
 </div>
