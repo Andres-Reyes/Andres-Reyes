@@ -25,7 +25,7 @@ Soy un desarrollador web Full Stack de Colombia, con experiencia en la creación
 
 - 🔭 Actualmente trabajo como **Desarrollador Full Stack Web**
 - 🌱 Aprendiendo **Angular**, **Python** y **Flutter**
-- 🎓 Certificaciones: [Nombre de certificación], [Otra certificación]
+- 🎓 Certificaciones: Ingeniero de sistemas, tecnólogo en desarrollo de software, técnico profesional en desarrollo de aplicaciones móviles 
 - 💼 Abierto a colaborar en proyectos web innovadores
 
 ## 🛠️ Tecnologías y Herramientas
