@@ -1,6 +1,6 @@
 <div id="header" align="center">
     <img width="2000" height="400" alt="image" src="https://github.com/user-attachments/assets/ad11f0f3-cb81-49e0-b06b-93a8d92bd69e" />
-    <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" />
+   <!-- <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" />-->
     <h1 align="center">¡Hola! 👋 Soy Andres Reyes</h1>
     <h3 align="center">Desarrollador Full Stack apasionado por crear soluciones digitales innovadoras</h3>
 </div>
