@@ -5,7 +5,7 @@
 
 <!-- Typing SVG -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3DADE8&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Desarrollador+Full+Stack;Apasionado+por+crear+soluciones+innovadoras;Transformando+ideas+en+realidad" alt="Typing SVG" /></a>
-</br>
+<br/>
 
 <!-- Animated GIF -->
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" />
