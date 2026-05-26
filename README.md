@@ -5,7 +5,7 @@
 
 <!-- Typing SVG -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3DADE8&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Desarrollador+Full+Stack;Apasionado+por+crear+soluciones+innovadoras;Transformando+ideas+en+realidad" alt="Typing SVG" /></a>
-<br/>
+
 
 <!-- Animated GIF -->
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" />
@@ -22,7 +22,7 @@
     <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717"/>
   </a>
 </p>
-
+<br/><br/>
 <!-- Profile Views Counter -->
 <img src="https://komarev.com/ghpvc/?username=Andres-Reyes&style=for-the-badge&color=blueviolet" alt="Profile Views"/>
 
