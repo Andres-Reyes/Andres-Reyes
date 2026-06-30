@@ -1,10 +1,6 @@
 <div align="center">
 
-<!-- Header con animación -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Andres%20Reyes&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff"/>
 
-<!-- Typing SVG -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3DADE8&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Desarrollador+Full+Stack;Apasionado+por+crear+soluciones+innovadoras;Transformando+ideas+en+realidad" alt="Typing SVG" /></a>
 
 
 <!-- Animated GIF -->
