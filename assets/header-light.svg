@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 320" role="img" aria-labelledby="t d">
+  <title id="t">Ariel Andrés Reyes Tuay</title>
+  <desc id="d">Desarrollador Full Stack Web e Ingeniero de Sistemas en Colombia. Diagrama animado de una arquitectura con clientes web y móvil, API, datos e inteligencia artificial.</desc>
+  <style>
+    :root{--bg1:#ffffff;--bg2:#f1f6fc;--border:#d0d7de;--text:#1f2328;--text2:#32383f;--muted:#656d76;--accent:#0969da;--accent2:#0a7c86;--node:#ffffff;--edge:#c4ccd6;--dot:#8c959f;--glow:.13}
+
+    text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+
+    .bg1{stop-color:var(--bg1)}
+    .bg2{stop-color:var(--bg2)}
+    .ac{stop-color:var(--accent)}
+    .ac2{stop-color:var(--accent2)}
+    .frame{fill:none;stroke:var(--border)}
+    .dot{fill:var(--dot)}
+    .grid{opacity:.55;animation:fade 1.4s ease-out .2s both}
+    .glow{opacity:var(--glow);animation:breathe 7s ease-in-out infinite}
+    .sweep{animation:sweep 9s cubic-bezier(.4,0,.2,1) 1.5s infinite both}
+
+    .name{font-size:40px;font-weight:700;letter-spacing:-.6px;fill:var(--text)}
+    .role{font-size:22px;font-weight:600;fill:var(--text2)}
+    .meta{font-size:16px;fill:var(--muted)}
+    .focus{font-size:14px;fill:var(--muted)}
+    .rule{fill:url(#rule);transform-box:fill-box;transform-origin:left center;animation:grow .8s cubic-bezier(.2,.7,.2,1) .45s both}
+    .pulse{fill:var(--accent2);animation:blink 2.4s ease-in-out infinite}
+
+    .rise{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+    .d1{animation-delay:.15s}
+    .d2{animation-delay:.55s}
+    .d3{animation-delay:.75s}
+    .d4{animation-delay:1.6s}
+
+    .f{animation:cycle 12s ease-in-out infinite both}
+    .f1{animation-delay:2s}
+    .f2{animation-delay:6s}
+    .f3{animation-delay:10s}
+
+    .edge{fill:none;stroke:var(--edge);stroke-width:1.5;stroke-dasharray:1;stroke-dashoffset:0;animation:draw .6s ease-out both}
+    .e1{animation-delay:1.2s}
+    .e2{animation-delay:1.3s}
+    .e3{animation-delay:1.75s}
+    .e4{animation-delay:1.8s}
+    .e5{animation-delay:1.85s}
+    .e6{animation-delay:2.4s}
+
+    .node{transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.2,.8,.2,1) both}
+    .node .box{fill:var(--node);stroke:var(--border);stroke-width:1.2}
+    .node text{font-size:13px;font-weight:600;fill:var(--text2);text-anchor:middle}
+    .api .box{stroke:var(--accent)}
+    .api text{fill:var(--accent)}
+    .ring{fill:none;stroke:var(--accent);stroke-width:1.5;opacity:0;transform-box:fill-box;transform-origin:center;animation:ring 6s linear 3s infinite}
+    .n1{animation-delay:1s}
+    .n2{animation-delay:1.1s}
+    .n3{animation-delay:1.5s}
+    .n4{animation-delay:2.1s}
+    .n5{animation-delay:2.2s}
+    .n6{animation-delay:2.3s}
+
+    .hWeb{animation:hWeb 6s linear 3s infinite}
+    .hMob{animation:hMob 6s linear 3s infinite}
+    .hDb{animation:hDb 6s linear 3s infinite}
+    .hIa{animation:hIa 6s linear 3s infinite}
+    .hRag{animation:hRag 6s linear 3s infinite}
+
+    .pk .core{fill:var(--accent)}
+    .pk .halo{fill:var(--accent);opacity:.22}
+    .pk.ai .core,.pk.ai .halo{fill:var(--accent2)}
+
+    @keyframes fade{from{opacity:0}}
+    @keyframes breathe{0%,100%{opacity:calc(var(--glow)*.55)}50%{opacity:var(--glow)}}
+    @keyframes sweep{0%{transform:translateX(0)}60%,100%{transform:translateX(1260px)}}
+    @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+    @keyframes cycle{0%{opacity:0;transform:translateY(8px)}4%,30%{opacity:1;transform:translateY(0)}33.3%,100%{opacity:0;transform:translateY(-8px)}}
+    @keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+    @keyframes pop{from{opacity:0;transform:scale(.88)}to{opacity:1;transform:scale(1)}}
+    @keyframes ring{0%,19%{opacity:0;transform:scale(1)}20%{opacity:.7;transform:scale(1)}34%{opacity:0;transform:scale(1.32)}35%,67%{opacity:0;transform:scale(1)}68%{opacity:.7;transform:scale(1)}82%,100%{opacity:0;transform:scale(1.32)}}
+    @keyframes hWeb{0%,2%{stroke:var(--border)}5%{stroke:var(--accent)}16%,100%{stroke:var(--border)}}
+    @keyframes hMob{0%,50%{stroke:var(--border)}53%{stroke:var(--accent)}64%,100%{stroke:var(--border)}}
+    @keyframes hDb{0%,34%{stroke:var(--border)}37%{stroke:var(--accent)}48%,82%{stroke:var(--border)}85%{stroke:var(--accent)}96%,100%{stroke:var(--border)}}
+    @keyframes hIa{0%,27%{stroke:var(--border)}30%{stroke:var(--accent2)}42%,100%{stroke:var(--border)}}
+    @keyframes hRag{0%,38%{stroke:var(--border)}41%{stroke:var(--accent2)}52%,82%{stroke:var(--border)}85%{stroke:var(--accent2)}96%,100%{stroke:var(--border)}}
+
+    /* Ancho reducido (móvil): sin diagrama y con el texto ampliado */
+    @media (max-width:560px){
+      .diagram{display:none}
+      .grid{opacity:.3}
+      .copy{transform:translate(-42px,-98px) scale(1.6)}
+    }
+
+    @media (prefers-reduced-motion:reduce){
+      *{animation:none!important}
+      .pk,.f2,.f3,.sweep{display:none}
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" class="bg1"/>
+      <stop offset="1" class="bg2"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" class="ac"/>
+      <stop offset="1" class="ac2"/>
+    </linearGradient>
+    <linearGradient id="sweepG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" class="ac" stop-opacity="0"/>
+      <stop offset=".5" class="ac" stop-opacity=".9"/>
+      <stop offset="1" class="ac" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowG">
+      <stop offset="0" class="ac"/>
+      <stop offset="1" class="ac" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fadeG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset=".3" stop-color="#000"/>
+      <stop offset=".8" stop-color="#fff"/>
+    </linearGradient>
+    <mask id="fade">
+      <rect width="960" height="320" fill="url(#fadeG)"/>
+    </mask>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle class="dot" cx="2" cy="2" r="1.1"/>
+    </pattern>
+    <clipPath id="card">
+      <rect x=".5" y=".5" width="959" height="319" rx="14"/>
+    </clipPath>
+
+    <path id="e1" d="M680 108C706 108 706 160 732 160"/>
+    <path id="e2" d="M680 212C706 212 706 160 732 160"/>
+    <path id="e3" d="M796 160C822 160 822 76 848 76"/>
+    <path id="e4" d="M796 160H848"/>
+    <path id="e5" d="M796 160C822 160 822 244 848 244"/>
+    <path id="e6" d="M884 176V228"/>
+  </defs>
+
+  <rect x=".5" y=".5" width="959" height="319" rx="14" fill="url(#bg)"/>
+  <g clip-path="url(#card)">
+    <rect class="grid" width="960" height="320" fill="url(#dots)" mask="url(#fade)"/>
+    <circle class="glow" cx="764" cy="160" r="210" fill="url(#glowG)"/>
+  </g>
+
+  <g class="diagram">
+    <path class="edge e1" pathLength="1" d="M680 108C706 108 706 160 732 160"/>
+    <path class="edge e2" pathLength="1" d="M680 212C706 212 706 160 732 160"/>
+    <path class="edge e3" pathLength="1" d="M796 160C822 160 822 76 848 76"/>
+    <path class="edge e4" pathLength="1" d="M796 160H848"/>
+    <path class="edge e5" pathLength="1" d="M796 160C822 160 822 244 848 244"/>
+    <path class="edge e6" pathLength="1" d="M884 176V228"/>
+
+    <g class="node n1">
+      <rect class="box hWeb" x="604" y="92" width="76" height="32" rx="8"/>
+      <text class="mono" x="642" y="112.5">Web</text>
+    </g>
+    <g class="node n2">
+      <rect class="box hMob" x="604" y="196" width="76" height="32" rx="8"/>
+      <text class="mono" x="642" y="216.5">Móvil</text>
+    </g>
+    <g class="node api n3">
+      <rect class="ring" x="732" y="140" width="64" height="40" rx="10"/>
+      <rect class="box" x="732" y="140" width="64" height="40" rx="10"/>
+      <text class="mono" x="764" y="164.5">API</text>
+    </g>
+    <g class="node n4">
+      <rect class="box hDb" x="848" y="60" width="72" height="32" rx="8"/>
+      <text class="mono" x="884" y="80.5">Datos</text>
+    </g>
+    <g class="node n5">
+      <rect class="box hIa" x="848" y="144" width="72" height="32" rx="8"/>
+      <text class="mono" x="884" y="164.5">IA</text>
+    </g>
+    <g class="node n6">
+      <rect class="box hRag" x="848" y="228" width="72" height="32" rx="8"/>
+      <text class="mono" x="884" y="248.5">RAG</text>
+    </g>
+
+    <!-- Paquetes: un ciclo de 6 s. Web → API → IA → RAG y Datos; luego Móvil → API → RAG y Datos -->
+    <g class="pk" opacity="0">
+      <circle class="halo" r="7"/><circle class="core" r="2.8"/>
+      <animateMotion begin="3s" dur="6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.04;.2;1" keyPoints="0;0;1;1" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1"><mpath xlink:href="#e1"/></animateMotion>
+      <animate attributeName="opacity" begin="3s" dur="6s" repeatCount="indefinite" keyTimes="0;.04;.055;.185;.2;1" values="0;0;1;1;0;0"/>
+    </g>
+    <g class="pk ai" opacity="0">
+      <circle class="halo" r="7"/><circle class="core" r="2.8"/>
+      <animateMotion begin="3s" dur="6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.2;.29;1" keyPoints="0;0;1;1" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1"><mpath xlink:href="#e4"/></animateMotion>
+      <animate attributeName="opacity" begin="3s" dur="6s" repeatCount="indefinite" keyTimes="0;.2;.215;.275;.29;1" values="0;0;1;1;0;0"/>
+    </g>
+    <g class="pk ai" opacity="0">
+      <circle class="halo" r="7"/><circle class="core" r="2.8"/>
+      <animateMotion begin="3s" dur="6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.29;.4;1" keyPoints="0;0;1;1" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1"><mpath xlink:href="#e6"/></animateMotion>
+      <animate attributeName="opacity" begin="3s" dur="6s" repeatCount="indefinite" keyTimes="0;.29;.305;.385;.4;1" values="0;0;1;1;0;0"/>
+    </g>
+    <g class="pk" opacity="0">
+      <circle class="halo" r="7"/><circle class="core" r="2.8"/>
+      <animateMotion begin="3s" dur="6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.2;.36;1" keyPoints="0;0;1;1" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1"><mpath xlink:href="#e3"/></animateMotion>
+      <animate attributeName="opacity" begin="3s" dur="6s" repeatCount="indefinite" keyTimes="0;.2;.215;.345;.36;1" values="0;0;1;1;0;0"/>
+    </g>
+    <g class="pk" opacity="0">
+      <circle class="halo" r="7"/><circle class="core" r="2.8"/>
+      <animateMotion begin="3s" dur="6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.52;.68;1" keyPoints="0;0;1;1" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1"><mpath xlink:href="#e2"/></animateMotion>
+      <animate attributeName="opacity" begin="3s" dur="6s" repeatCount="indefinite" keyTimes="0;.52;.535;.665;.68;1" values="0;0;1;1;0;0"/>
+    </g>
+    <g class="pk ai" opacity="0">
+      <circle class="halo" r="7"/><circle class="core" r="2.8"/>
+      <animateMotion begin="3s" dur="6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.68;.84;1" keyPoints="0;0;1;1" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1"><mpath xlink:href="#e5"/></animateMotion>
+      <animate attributeName="opacity" begin="3s" dur="6s" repeatCount="indefinite" keyTimes="0;.68;.695;.825;.84;1" values="0;0;1;1;0;0"/>
+    </g>
+    <g class="pk" opacity="0">
+      <circle class="halo" r="7"/><circle class="core" r="2.8"/>
+      <animateMotion begin="3s" dur="6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.68;.84;1" keyPoints="0;0;1;1" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1"><mpath xlink:href="#e3"/></animateMotion>
+      <animate attributeName="opacity" begin="3s" dur="6s" repeatCount="indefinite" keyTimes="0;.68;.695;.825;.84;1" values="0;0;1;1;0;0"/>
+    </g>
+  </g>
+
+  <g class="copy">
+    <text class="name rise d1" x="56" y="112">Ariel Andrés Reyes Tuay</text>
+    <rect class="rule" x="56" y="130" width="72" height="4" rx="2"/>
+    <text class="role rise d2" x="56" y="176">Desarrollador Full Stack Web</text>
+    <text class="meta rise d3" x="56" y="204">Ingeniero de Sistemas · Colombia</text>
+    <g class="rise d4">
+      <circle class="pulse" cx="61" cy="241" r="4"/>
+      <text class="focus mono f f1" x="76" y="246">Aplicaciones web con Vue, Angular y Astro</text>
+      <text class="focus mono f f2" x="76" y="246">APIs con Node.js, FastAPI y Firebase</text>
+      <text class="focus mono f f3" x="76" y="246">Asistentes de IA con modelos locales y RAG</text>
+    </g>
+  </g>
+
+  <rect class="frame" x=".5" y=".5" width="959" height="319" rx="14"/>
+  <g clip-path="url(#card)">
+    <rect class="sweep" x="-280" y="0" width="280" height="2" fill="url(#sweepG)"/>
+  </g>
+</svg>
